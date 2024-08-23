@@ -12,7 +12,7 @@ export default async (req: Request, context: Context) => {
     });
   }
 
-  return Response.json({ featureData });
+  return Response.json(featureData);
 };
 
 export const config: Config = {
