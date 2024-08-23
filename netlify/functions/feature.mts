@@ -6,7 +6,7 @@ export default async (req: Request, context: Context) => {
 
   const featureData = features[feature];
 
-  return Response.json({feature: featureData});
+  return Response.json({featureData});
 };
 
 export const config: Config = {
