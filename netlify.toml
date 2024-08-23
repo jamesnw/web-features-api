@@ -1,4 +1,4 @@
 [[headers]]
-  for = "/*"
+  for = "/feature/*"
   [headers.values]
     Access-Control-Allow-Origin = "*"
