@@ -7,7 +7,7 @@ const CORS_HEADERS = {
   }
 };
 export default async (req: Request, context: Context) => {
-  const response = await context.next();
+
   // You need this if you are calling this from the browser
 	// to handle CORS preflight stuff
 	if (req.method === "OPTIONS") {
