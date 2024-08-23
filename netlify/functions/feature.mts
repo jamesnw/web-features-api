@@ -7,7 +7,7 @@ export default async (req: Request, context: Context) => {
   const featureData = features[feature];
   if (!featureData) {
     console.log("no feature data");
-    return Response.json(JSON.stringify({ message: "Not Found" }), {
+    return Response.json({ message: "Not Found" }, {
       status: 404,
     });
   }
